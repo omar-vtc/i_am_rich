@@ -16,8 +16,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://st5.depositphotos.com/35914836/63482/i/450/depositphotos_634821438-stock-photo-beautiful-sunset-sea.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
